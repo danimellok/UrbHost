@@ -5,6 +5,7 @@
 ## **Required Libraries**
 Before running the code, ensure the following libraries are installed on your system:
 
+```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression, Lasso
@@ -14,10 +15,12 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 import numpy as np
 import matplotlib.pyplot as plt
+```
 
 **To install these libraries, run the following command in your terminal**
-pip install pandas scikit-learn numpy matplotlib
-
+```python
+pip install pandas scikit-learn numpy matplotlib streamlit
+```
 ## Step-by-Step Instructions
 
 ### 1. Data Cleaning
@@ -35,6 +38,17 @@ Training a linear regression model on the processed data.
 Generating predictions and evaluating the model using metrics such as Mean Squared Error (MSE) and R^2
 (Optional) Running a Lasso regression to explore feature selection and regularization.
 Visualize and interpret the results. Ensure that all graphs and outputs are saved for further analysis.
+### 3. Stramlit App
+The Streamlit app provides an interactive interface to estimate listing prices based on user input. Follow these steps to run the app:
+1.Navigate to the App Directory: Ensure you are in the directory where the Streamlit script (app.py) is located.
+2.Run the Streamlit App: Execute the following command in your terminal:
+```python
+streamlit run UrbHost_Streamlit.py
+```
+3.Interact with the App:
+Open the generated link in your browser.
+Input details such as property type, room type, city, country, and other features.
+The app will display the predicted price based on your inputs.
 
 ## Key Outputs
 
