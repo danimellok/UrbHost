@@ -46,7 +46,7 @@ Generating predictions and evaluating the model using metrics such as Mean Squar
 Visualize and interpret the results. Ensure that all graphs and outputs are saved for further analysis.
 ### 3. Stramlit App
 The Streamlit app provides an interactive interface to estimate listing prices based on user input. Follow these steps to run the app:
-1.Navigate to the App Directory: Ensure you are in the directory where the Streamlit script (app.py) is located.
+1.Navigate to the App Directory: Ensure you are in the directory where the Streamlit script is located.
 2.Run the Streamlit App: Execute the following command in your terminal:
 ```python
 streamlit run UrbHost_Streamlit.py
